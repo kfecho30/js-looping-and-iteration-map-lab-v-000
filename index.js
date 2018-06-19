@@ -8,7 +8,9 @@ function lowerCaseDrivers(arr) {
 function nameToAttributes(obj) {
   return obj.map(function (driver) {
     let names = driver.split(' ')
-    return obj.firstName = names[0], obj.lastName = names[1]
+    obj.firstName = names[0]
+    obj.lastName = names[1]
+    return obj
   });
 }
 
