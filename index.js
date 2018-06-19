@@ -1,6 +1,8 @@
 // Code your solution in this file.
-function lowerCaseDrivers() {
-
+function lowerCaseDrivers(arr) {
+  arr.map(function(a) {
+    return a.toLowerCase();
+  })
 }
 
 function nameToAttributes() {
@@ -8,5 +10,5 @@ function nameToAttributes() {
 }
 
 function attributesToPhrase() {
-  
+
 }
