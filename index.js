@@ -12,6 +12,8 @@ function nameToAttributes(obj) {
   });
 }
 
-function attributesToPhrase() {
-
+function attributesToPhrase(arr) {
+  return arr.map(function (driver) {
+    return `${driver.name} is from ${driver.hometown}.`
+  });
 }
