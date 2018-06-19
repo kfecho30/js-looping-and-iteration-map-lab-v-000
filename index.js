@@ -1,7 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(arr) {
-  arr.map(function (a) {
-    return a.toLowerCase();
+  arr.map(function (driver) {
+    return driver.toLowerCase();
   })
 }
 
